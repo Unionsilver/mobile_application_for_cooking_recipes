@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 class Recipe {
   final String photoUrl;
   final String name;
@@ -8,5 +9,4 @@ class Recipe {
     required this.name,
     required this.cookingTime,
   });
-
 }
